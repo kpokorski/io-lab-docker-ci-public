@@ -2,7 +2,7 @@
 version: '3.0'
 services:
   web:
-    image: "wcislo/io-lab-docker-ci-public:latest"
+    image: "kpokorski/io-lab-docker-ci-public:latest"
     ports:
       - "80:5000"
     environment:
